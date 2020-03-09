@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { routerModule } from './routes';
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,

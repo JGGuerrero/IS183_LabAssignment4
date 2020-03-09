@@ -1,0 +1,316 @@
+#about-container {
+    height: 100%;
+    overflow: auto;
+    /* background-color: red; */
+}
+
+#about-container-inner {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    /* height: 100%; */
+    width: 80%;
+    /* background-color: green; */
+    margin: 0px auto;
+    grid-row-gap: 1em;
+}
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    height: 55px;
+    border-color: #ff0000;
+    border-radius: 4px;
+    /* align-items: center; */
+    padding: 1em;
+    
+}
+
+.top-nav-item {
+    list-style-type: none;
+}
+.top-nav-item > li {
+    display: inline;
+}
+.top-nav-item li a {
+    color: #fff ;
+    padding: 5px;
+}
+
+.welcome-text {
+    color: white;
+}
+
+.logo-txt {
+    font-size: 1.75em !important;
+    font-weight: bold;
+}
+
+.white {
+    background-color: #fff !important;
+}
+
+.banner {
+    height: 340px;
+    border-radius: 10px;
+    background-image: url('../../assets/img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 14%;
+    color: #fff;
+    padding: 3em;
+    
+}
+
+.main-nav {
+    border: 1px solid #e5e5e5;
+}
+
+
+.art-content {
+    display:grid;
+ 
+    height: 100%;
+    
+}
+
+.art-c1-content {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-column-gap: 2em;
+    /* height: 100%; */
+}
+
+.left {
+    background-image: url('../../assets/img/113010.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+}
+
+.red-text {
+    color: red;
+}
+
+.btn-bordered {
+    border: 1px solid #cccccc;
+}
+
+.product-table {
+    margin-top: 1em;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #cccccc;
+}
+
+.product-table > thead >tr {
+    background-color: #ccc;
+
+}
+.product-table td {
+    border-bottom: 1px solid #cccccc;
+    padding: 2px 3px;
+}
+
+.similar-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: center;
+    grid-column-gap: 1em;
+    margin: 20px 0px;
+}
+
+.small-text {
+    font-size: .95em;
+}
+
+.bordered {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+
+/* sidebar begin */
+
+.accent-blue {
+    /* background-color: #d9edf7; */
+    border: 1px solid #d9edf7;
+}
+
+.accent-background {
+    background-color: #d9edf7;
+}
+
+.left-sidebar-block {
+    border-radius: 7px;
+    border: 1px solid;
+    min-height: 250px;
+    margin-bottom: 10px;
+}
+.light-blue{
+    /* border: 1px solid #428bca; */
+    color: #428bca;
+}
+h3.block-header {
+    background-color: #428bca;
+    color: #fff;
+    padding: 7px;
+    font-size: 1em;
+}
+
+h3.block-header-accent {
+    background-color: #d9edf7;
+    color: #428bca;
+    padding: 7px;
+    font-size: 1em;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    text-align: center;
+    padding: .5em;
+}
+
+.sidebar-list > li {
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.sidebar-list > li >img {
+    margin-right: 5px;
+    width: 33px;
+}
+
+.pull-left {
+    float: left
+}
+
+.align-text-left {
+    text-align: left;
+}
+
+.tiny-text {
+    font-size: .7em;
+}
+
+.btn-below {
+    margin-bottom: 10px;
+}
+
+
+.sidebar-list > li > a {
+    padding: 7px 0px;
+    display: block;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+
+.sidebar-list > li > a:hover {
+    background-color: #f1f1f1;
+   
+}
+
+
+
+/* sidebar end */
+
+
+
+
+
+/* footer start */
+
+.top-footer {
+    background-color:#e7e7e7;
+    /* margin-top: 425px; */
+}
+
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+    height: 350px;
+    padding: 10px 0px 0px;
+
+}
+
+.medium-text {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-list > li{
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+ul.footer-list >li > img {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-link {
+    display: block;
+    padding: 15px 0px;
+    
+}
+
+.bottom-footer {
+    background-color: #3a3a3a;
+    color:gray;
+}
+
+.footer-bottom-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+.footer-bottom-inner > span {
+    display: block;
+    padding: 15px 0px;
+}
+
+
+
+/* footer end */
+
+
+
+/* art container grid start */
+
+.art-container-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    /* grid-column-gap: 1em; */
+    /* grid-row-gap: 1em; */
+    grid-gap: 1em;
+    justify-items: center;
+}
+
+.artist-card {
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+h2.small {
+    font-size: 1.5em;
+    padding: 20px 0px 10px;
+    
+}
+
+
+
+/* art container grid end */

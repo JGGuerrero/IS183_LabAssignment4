@@ -36,8 +36,9 @@
 }
 
 .welcome-text {
-  color: white;
+  color:white;
 }
+
 
 .logo-txt {
   font-size: 1.75em !important;
@@ -61,19 +62,4 @@
 
 .main-nav {
   border: 1px solid #e5e5e5;
-}
-{
-    (
-        (
-            (
-                {{
-                    {
-                        {
-                            
-                        }
-                    }
-                }}
-            )
-        )
-    )
 }

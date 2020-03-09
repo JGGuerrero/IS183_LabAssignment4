@@ -31,7 +31,7 @@ const Routes: Routes = [
         }
     },
     {
-        path: 'artworks',
+        path: 'artwork',
         component: ArtworkComponent,
         resolve: {},
         data: {
