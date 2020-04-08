@@ -213,11 +213,15 @@
     margin-bottom: 20px;
   }
   
+  .contact-us-txt {
+    font-size: 1.75em;
+  }
+
   .footer-list {
     list-style-type: none;
   }
   .footer-list > li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     overflow: auto;
   }
   ul.footer-list>li>img {
